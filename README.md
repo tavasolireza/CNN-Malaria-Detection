@@ -4,39 +4,18 @@ In this project, a simple CNN will be built using Tensorflow to detect Malaria f
 
 ## Dataset Preview
 
-<table>
-  <tr>
-    <td style="text-align:center; font-weight: bold; font-size: 17px;" >Parasitized Cell</td>
-     <td style="text-align:center; font-weight: bold; font-size: 17px;" >Uninfected Cell</td>
-  </tr>
-  <tr>
-    <td style="text-align:center" ><img width=330 height=330 src="./res/parasitized.png"  alt="Parasitized" title="Parasitized Cell"/> </td>
-    <td style="text-align:center" ><img width=330 height=330 src="./res/uninfected.png"  alt="Uninfected" title="Uninfected Cell"/></td>
-  </tr>
- </table>
+|   Parasitized Cell    |  Uninfected Cell   |
+| :----------: | :----------: |
+| <img width=290 height=290 src="./res/parasitized.png"  alt="Parasitized" title="Parasitized Cell"/> | <img width=290 height=290 src="./res/uninfected.png"  alt="Uninfected" title="Uninfected Cell"/> |
 
 
 
-## Evalutation
+## Evaluation
 
-<table>
-  <tr>
-    <td style="text-align:center; font-weight: bold; font-size: 17px;" >Classes</td>
-    <td style="text-align:center; font-weight: bold; font-size: 17px;" >Precision</td>
-     <td style="text-align:center; font-weight: bold; font-size: 17px;" >Recall</td>
-    <td style="text-align:center; font-weight: bold; font-size: 17px;" >F1 score </td>
-  </tr>
-  <tr>
-    <td style="text-align:center" >Parasitized (0)</td>
-    <td style="text-align:center" >0.96</td>
-    <td style="text-align:center" >0.93</td>
-    <td style="text-align:center" >0.95</td>
-  </tr>
-  <tr>
-    <td style="text-align:center" >Uninfected (1)</td>
-    <td style="text-align:center" >0.93</td>
-    <td style="text-align:center" >0.97</td>
-    <td style="text-align:center" >0.95</td>
-  </tr>
- </table>
+|   Classes    |  Precision   |    Recall    |   F1 Score   |
+| :---------: | :---------: | :---------: | :---------: |
+| Parasitized (0) | 0.96 | 0.93 | 0.95 |
+| Uninfected (1) | 0.93 | 0.97 | 0.95 |
+
+
 
